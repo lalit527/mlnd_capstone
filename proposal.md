@@ -29,7 +29,7 @@ I am planning to use a deep learning algorithm with RNN GRU/ LSTM architecture.
 Recurrent Neural Networks — Long short-term memory (LSTM), Gated Recurrent Unit (GRU) are good for time series forecasting comprised of separate autoencoder and decoder sub-models. The skill of the proposed LSTM architecture at rare event demand forecasting and the ability to reuse the trained model on unrelated forecasting problems.
 
 ### Benchmark Model
-For a benchmark model we will be using tha Kaggle leader board to chck our model's SMAPE score to thr others on the leaderboard. I good model should have a SMAPE score of approximately 40.
+For a benchmark model we will be using tha Kaggle leader board to check our model's SMAPE score to the others on the leaderboard. A good model should have a SMAPE score of approximately 35-40.
 
 
 ### Evaluation Metrics
