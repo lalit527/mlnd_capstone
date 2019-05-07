@@ -1,9 +1,12 @@
 # Machine Learning Engineer Nanodegree
-## Capstone Proposal
-Lalit Yadav
+
+## Capstone Proposal for Web Traffic Time Series Forecasting
+**Lalit Yadav**
+
 May 7th, 2019
 
 ## Proposal
+#### Web Traffic Time Series Forecasting using rnn-lstm
 
 ### Domain Background
 
