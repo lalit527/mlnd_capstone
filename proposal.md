@@ -36,7 +36,7 @@ For a benchmark model we will be using tha Kaggle leader board to check our mode
 The Evaluation Metrics used for this Kaggle competition is SMAPE(Symmetric mean absolute percentage error (SMAPE or sMAPE))
 SAMPE is an accuracy based on percentage (or relative) errors. It is defined as:-
 
-       {\displaystyle {\text{SMAPE}}={\frac {1}{n}}\sum _{t=1}^{n}{\frac {\left|F_{t}-A_{t}\right|}{(A_{t}+F_{t})/2}}}
+       1/n summation over 1 to n (|Ft - At| / (|At+ + |Ft|) / 2)
        
 where At is the actual value and Ft is the forecast value.
 
@@ -47,6 +47,7 @@ The absolute difference between At and Ft is divided by half the sum of absolute
 1. First step would be to import the training data, then analyzing and cleanning the data.
 2. We will have to add some features that we help the model in predictions. Features like Days, Months, Years, language of text, country are interesting to forecast with a Machine Learning Approach or to do an analysis. 
 3. We will create a encoder decoder model to fit the data. One conern that I ca see is that on longer sequences LSTM/GRU works, but can gradually forget information from the oldest items. We will use try to add attention to the model for effectiveness.
+4. As the total datasize is around 145k, will will take subsample of the original data and train the model. Once the model seems to generalize well on small subset of data we will try to use all data for prediction.
 
 
 ### References
